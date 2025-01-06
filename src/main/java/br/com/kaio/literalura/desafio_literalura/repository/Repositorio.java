@@ -35,4 +35,5 @@ public interface Repositorio extends JpaRepository<Autor, Long> {
     @Query("SELECT l FROM Livro l ORDER BY l.qtdDownloads DESC LIMIT 5")
     List<Livro> buscarTop5Livros();
 
+
 }

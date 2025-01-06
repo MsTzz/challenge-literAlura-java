@@ -23,4 +23,5 @@ public class DesafioLiterAluraApplication implements CommandLineRunner {
 		Principal principal = new Principal(repositorio);
 		principal.exibeMenu();
 	}
+
 }

@@ -83,8 +83,6 @@ public class Principal {
                 case 0:
                     System.out.println("Saindo...");
                     break;
-                default:
-                    System.out.println("Opção inválida. Por favor, tente novamente.");
             }
         }
     }

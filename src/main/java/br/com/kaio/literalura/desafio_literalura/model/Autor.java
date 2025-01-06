@@ -22,8 +22,7 @@ public class Autor {
     private List<Livro> livros = new ArrayList<>();
 
 
-    public Autor() {
-    }
+    public Autor() {}
 
     public String getNome() {
         return nome;
